@@ -7,8 +7,16 @@
 .menu .menu-item {
 	display: inline-block;
 	margin: 0 10px;
+	font-weight: 700;
 	}
-
+.menu .menu-item a:hover {
+	color: #ff9900;
+	border: 2px solid #cfec52;	
+}
+.menu .menu-item a {
+	color: #137f00;
+	text-decoration: none;
+}
 .title {
 	text-align: center;
 	font-weight: 700;
@@ -22,3 +30,4 @@
 	text-align: center;
 	font-weight: 700;
 	}
+	
