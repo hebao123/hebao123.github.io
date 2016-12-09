@@ -1,0 +1,24 @@
+.menu {
+	margin-top: 20px;
+	padding-left: 0;
+	text-align: center;
+	}
+
+.menu .menu-item {
+	display: inline-block;
+	margin: 0 10px;
+	}
+
+.title {
+	text-align: center;
+	font-weight: 700;
+	}
+
+.paragraph {
+	padding: 0 10%;
+	
+	}
+.footer {
+	text-align: center;
+	font-weight: 700;
+	}

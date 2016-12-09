@@ -4,73 +4,22 @@
 <head>
 
 
-<style type="text/css">
-.menu {
-	border: 1px solid #ddd;
-	padding: 10px 10px;
-	text-align: center;
-	word-spacing: 5px;
-	background: #dffded;
-	}
-.index {
-    position: fixed;
-    left: 10%;
-	}
-.tags {
-    position: fixed;
-    right: 40%;
-	}
-.achives {
-    position: fixed;
-    right: 30%;
-	}
-.message {
-    position: fixed;
-    right: 20%;
-	}
-.about {
-    position: fixed;
-    right: 10%;
-	}
-.title {
-	text-align: center;
-	}
-.paragraph {
-	padding: 0 10%;
-	
-	}
-.div {
-	background: #d9d9d9;}
-.footer {
-	width: 100%;
-	height: 40px;
-	line-height: 20px;
-	background: #ccc;
-	position: fixed;
-	bottom:10px;
-	left:0px;
-	font-size: 14px;
-	color: #000;
-	text-align: center;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="index.css" />
 
 
 </head>
 <body>
 
-<div class= "div">
-<br/>
-
-	<a class= "menu index">首 页</a>
-	<a class= "menu tags">标 签</a>
-	<a class= "menu achives">归 档</a>
-	<a class= "menu message">留言板</a>
-	<a class= "menu about">关 于</a>
 	
-<br/>
+	<ul class= "menu">
+	<li class= "menu-item"><a href="/">首 页</a></li>
+	<li class= "menu-item"><a href="/tags">标 签</a></li>
+	<li class= "menu-item"><a href="/archives">归 档</a></li>
+	<li class= "menu-item"><a href="/message">留言板</a></li>
+	<li class= "menu-item"><a href="/about">关 于</a></li>
+	</ul>
+
 <hr/>
-</div>
 
 <div>
 
@@ -79,10 +28,12 @@
 
 </div>
 
-<div class= "footer">
+<div>
 
-<p>this page by hebao@2016</p>
+<p class="footer">This page by hebao@2016</p>
 
 </div>
+
+
 </body>
 </html>
